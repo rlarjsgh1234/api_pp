@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>포켓몬 도감 검색 (16칸)</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>포켓몬 도감 검색 (16칸)</h1>
+  <button id="all">입력한 칸 전체 검색</button>
+  <button id="clear" class="sub">전체 지우기</button>
+</header>
+<div id="msg">각 칸에 한글/영어 이름이나 번호를 입력하고 Enter. 이름은 PokéAPI의 언어별 이름 데이터(ko)를 사용해요.</div>
+<div class="rowtitle">A 구역 (2행 × 4열, A1~A8)</div>
+<div class="sum" id="sum1"></div>
+<div class="grid" id="grid1"></div>
+<div class="rowtitle">B 구역 (2행 × 4열, B1~B8)</div>
+<div class="sum" id="sum2"></div>
+<div class="grid" id="grid2"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
